@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #71a8d4;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    max-width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    padding: 3px;
+    border-radius: 50px;
+    background-color: #a7bdb9;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #a7bdb9;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.9);
+    border-radius: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+button[type="submit"] {
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #6589b1;
+    color: #080101;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+#userButton, #productButton, #clientButton {
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background: #007BFF;
+    color: #fff;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#userButton:hover, #productButton:hover, #clientButton:hover {
+    background: #0056b3;
+}
+
+
+/* Estilo para o elemento select no hover */
+select:hover {
+    border-color: #666; /* Altera a cor da borda ao passar o mouse */
+}
+
+/* Estilo para o elemento select quando focado (clique ou seleção) */
+select:focus {
+    border-color: #09d699; /* Altera a cor da borda quando o elemento está focado */
+    box-shadow: 0 0 4px rgba(0, 255, 76, 0.5); /* Adicione uma sombra ao focar */
+}
+
+/* Estilizar as opções dentro do select */
+select option {
+    background-color: #fff; /* Cor de fundo das opções */
+    color: #333; /* Cor do texto das opções */
+    padding: 5px 5px;
+    font-size: 0.8em;
+}
+
+/* Estilo para as opções no hover */
+select option:hover {
+    background-color: #09d699; /* Cor de fundo das opções ao passar o mouse */
+    color: #fff; /* Cor do texto das opções ao passar o mouse */
+}
